@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Circular orange background — clips icon to a circle on all launchers -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/ic_launcher_background"/>
+        </shape>
+    </item>
+    <!-- Icon scaled to fit inside the circle with padding -->
+    <item
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:bottom="8dp"
+        android:drawable="@drawable/ic_launcher_new"/>
+</layer-list>

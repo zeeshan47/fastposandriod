@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bowl body — dark charcoal, full shape -->
+    <path
+        android:fillColor="#2D2D2D"
+        android:pathData="M22,58 C26,50 82,50 86,58 C86,78 70,86 54,86 C38,86 22,78 22,58 Z"/>
+
+    <!-- White rim stripe — lens band in upper-middle of bowl -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,64 C27,59 81,59 85,64 C83,71 70,74 54,74 C38,74 25,71 23,64 Z"/>
+
+    <!-- Dark inner bowl — restores dark below the white stripe -->
+    <path
+        android:fillColor="#2D2D2D"
+        android:pathData="M27,70 C30,74 42,77 54,77 C66,77 78,74 81,70 C80,78 68,86 54,86 C40,86 28,78 27,70 Z"/>
+
+    <!-- Left flame — white S-curve -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,57 C37,46 36,32 42,22 C46,18 52,32 50,57 Z"/>
+
+    <!-- Right flame — white S-curve -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,57 C54,46 54,32 60,22 C64,18 68,32 66,57 Z"/>
+
+    <!-- Circular arrow arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M19,71 C18,92 78,95 87,70"/>
+
+    <!-- Arrowhead pointing upper-right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,63 L79,61 L85,74 Z"/>
+
+</vector>

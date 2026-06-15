@@ -1,0 +1,4 @@
+-keep class net.sourceforge.jtds.** { *; }
+-dontwarn net.sourceforge.jtds.**
+-keep class com.fastpos.android.data.models.** { *; }
+-keepattributes *Annotation*

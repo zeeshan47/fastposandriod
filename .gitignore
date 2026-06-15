@@ -1,0 +1,26 @@
+# Gradle / Android build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+*/build/
+
+# Local IDE and machine files
+.idea/
+.vscode/
+local.properties
+
+# Android signing and local secrets
+*.jks
+*.keystore
+key.properties
+secrets.properties
+
+# Generated crash / profiler dumps
+*.hprof
+*.heapdump
+hs_err_pid*
+
+# OS files
+.DS_Store
+Thumbs.db
